@@ -8,20 +8,21 @@
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
-    <!-- IMAGEM HACKER FODA -->
-<div class="hacker-image-container">
-    <div class="binary-border">
-        <span class="binary-text">01010101 01110011 01100101 01110010 00100000 01010011 01101011 01101111 01110010 01110000 01101001 01101111 01101110</span>
-    </div>
-    <div class="image-wrapper">
-        <img src="IMAGES/Skorpion.png" alt="Skorpion Logo" class="hacker-img">
-        <div class="neon-glow"></div>
-    </div>
-    <div class="binary-border">
-        <span class="binary-text">01110011 01111001 01110011 01110100 01100101 01101101 00100000 01110011 01100101 01100011 01110101 01110010 01100101 01100100</span>
-    </div>
-</div>
 <body>
+    <!-- IMAGEM HACKER NO CANTO SUPERIOR DIREITO -->
+    <div class="hacker-image-container">
+        <div class="binary-border">
+            <span class="binary-text">01010101 01110011 01100101 01110010 00100000 01010011 01101011 01101111 01110010 01110000 01101001 01101111 01101110</span>
+        </div>
+        <div class="image-wrapper">
+            <img src="IMAGES/Skorpion.png" alt="Skorpion Logo" class="hacker-img">
+            <div class="neon-glow"></div>
+        </div>
+        <div class="binary-border">
+            <span class="binary-text">01110011 01111001 01110011 01110100 01100101 01101101 00100000 01110011 01100101 01100011 01110101 01110010 01100101 01100100</span>
+        </div>
+    </div>
+
     <canvas id="matrixCanvas"></canvas>
 
     <div class="terminal">
@@ -64,7 +65,7 @@
                 <a href="https://wa.me/+55021982279802" target="_blank"><i class='bx bxl-whatsapp'></i></a>
             </div>
 
-            <a href="FILES/Curriculo_Henryson_de_Souza_Rosa_.pdf" class="download-btn" download>
+            <a href="FILES/Curriculo_Henryson_de_Souza_Rosa_.pdf.pdf" class="download-btn" download>
                 $ download cv.pdf
             </a>
         </section>
@@ -160,17 +161,17 @@
             <h2 class="hacker-text">$ ./contato.py</h2>
             
             <div class="contact-info">
-                <p>> <strong>Email:</strong> henryson.souza@example.com</p>
+                <p>> <strong>Email:</strong> henrysonsouza8@gmail.com</p>
                 <p>> <strong>WhatsApp:</strong> +55 (21) 98227-9802</p>
                 <p>> <strong>GitHub:</strong> github.com/Sk00rp10n</p>
-                <p>> <strong>LinkedIn:</strong> linkedin.com/in/henryson-souza</p>
+                <p>> <strong>LinkedIn:</strong> linkedin.com/in/henryson-souza-0813a8397</p>
             </div>
 
             <div class="neon-line"></div>
 
             <div class="contact-form">
                 <h3 class="typing-text">> ENVIAR MENSAGEM:</h3>
-                <form>
+                <form id="contactForm">
                     <div class="form-group">
                         <input type="text" placeholder="> Nome" required>
                     </div>
@@ -189,7 +190,7 @@
         <div class="neon-line"></div>
 
         <!-- FOOTER -->
-        <footer style="padding: 30px; text-align: center; background: rgba(0, 20, 0, 0.5);">
+        <footer>
             <p>> Skorpion Dev &copy; 2024 - [System Secured]</p>
             <p>> "Protegendo o mundo digital, um sistema de cada vez"</p>
         </footer>
