@@ -55,3 +55,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, 3000);
 });
+// Adiciona isso no teu script.js - Efeito de clique na imagem
+document.addEventListener('DOMContentLoaded', function() {
+    const hackerImg = document.querySelector('.hacker-img');
+    if (hackerImg) {
+        hackerImg.addEventListener('click', function() {
+            this.style.animation = 'none';
+            setTimeout(() => {
+                this.style.animation = 'float 3s ease-in-out infinite';
+            }, 10);
+            
+            // Efeito de glitch na hora do clique
+            this.style.filter = 'hue-rotate(90deg)';
+            setTimeout(() => {
+                this.style.filter = 'hue-rotate(0)';
+            }, 300);
+        });
+    }
+});
